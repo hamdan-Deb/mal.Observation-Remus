@@ -37,7 +37,7 @@ Because the local Defender scan failed, I manually submitted `installer.exe` to 
 **Findings:**
 Once uploaded and processed by Microsoft's cloud analysis, the verdict was clear. Microsoft's backend immediately classified the file as **Malware**, specifically categorizing it as **`Trojan:Win32/Kepavll!rfn`**.
 
-![Microsoft Submission](https://raw.githubusercontent.com/hamdan-Deb/mal.Observation-Remus/refs/heads/main/imgs/ms_submission.png)
+![Microsoft Submission](https://raw.githubusercontent.com/hamdan-Deb/mal.Observation-Remus/refs/heads/main/imgs/ms_submit.png)
 *(Microsoft portal classifying the submission as Trojan:Win32/Kepavll!rfn)*
 
 ### Phase 4: Local Detection Updates
