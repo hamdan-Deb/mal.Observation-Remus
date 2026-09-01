@@ -1,4 +1,4 @@
-# 🦠 Malware Analysis Observation: Bypassing Windows Defender with "Remus Stealer"
+# Malware Observation: Windows Defender with "Remus Stealer"
 
 ## 📝 Background
 This repository documents an independent malware analysis and observation of a malicious payload disguised as legitimate software. 
@@ -20,7 +20,7 @@ Upon executing `installer.exe` with default settings, the Any.run sandbox immedi
 * Intrusion Detection Systems (Suricata) flagged the payload specifically as **Remus Stealer**.
 * The behavioral analysis showed active attempts to **steal credentials from Web Browsers**.
 
-![Any.run Analysis](https://raw.githubusercontent.com/hamdan-Deb/mal.Observation-Remus/refs/heads/main/imgs/mal_detected.png)
+![Any.run Analysis](https://raw.githubusercontent.com/hamdan-Deb/mal.Observation-Remus/refs/heads/main/imgs/ram_use.png)
 *(Behavioral analysis showing network Trojan and browser credential theft)*
 
 ### Phase 2: Local AV Failure (The Blind Spot)
